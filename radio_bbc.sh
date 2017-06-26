@@ -1,5 +1,8 @@
 #!/usr/local/bin/bash
 
+# ref:
+# original: http://www.ejectamenta.com/online-apps/mplayer_bbc_radio_script.html
+
 red=`tput setaf 1`
 tput setaf 1
 # echo '
