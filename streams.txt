@@ -1,0 +1,41 @@
+alias news="mplayer -playlist http://minnesota.publicradio.org/tools/play/streams/news.pls" # MPR News
+alias current="mplayer -playlist http://minnesota.publicradio.org/tools/play/streams/the_current.pls" # The Current
+alias classical="mplayer -playlist http://minnesota.publicradio.org/tools/play/streams/classical.pls" # Classical MPR
+alias localcurrent="mplayer -playlist http://minnesota.publicradio.org/tools/play/streams/local.pls" # Local Current
+alias heartland="mplayer -playlist http://minnesota.publicradio.org/tools/play/streams/radio_heartland.pls" # MPR Radio Heartland
+alias wonderground="mplayer http://wondergroundstream2.publicradio.org/wonderground" # MPR Wonderground Windows Media
+alias choral="mplayer -playlist http://choralstream1.publicradio.org/choral.m3u" # Clasical MPR Choral
+alias wefunk="mplayer -playlist http://www.wefunkradio.com/play/shoutcast.pls" # WEFUNK Radio MP3 64K
+alias sleepbot="mplayer -playlist http://sleepbot.com/ambience/cgi/listen.cgi/listen.pls" # Sleepbot Environmental Broadcast 56K MP3
+alias groovesalad="mplayer -playlist http://somafm.com/groovesalad130.pls" # Soma FM Groove Salad iTunes AAC 128K
+alias dronezone="mplayer -playlist http://somafm.com/dronezone130.pls" # Soma FM Drone Zone iTunes AAC 128K
+alias lush="mplayer -playlist http://somafm.com/lush130.pls" # Soma FM Lush iTunes AAC 128K
+alias sonicuniverse="mplayer -playlist http://somafm.com/sonicuniverse.pls" # Soma FM Sonic Universe iTunes AAC 128K
+
+#EXTM3U
+#EXTINF:-1,MPR News
+http://minnesota.publicradio.org/tools/play/streams/news.pls
+#EXTINF:-1,The Current
+http://minnesota.publicradio.org/tools/play/streams/the_current.pls
+#EXTINF:-1,Classical MPR
+http://minnesota.publicradio.org/tools/play/streams/classical.pls
+#EXTINF:-1,Local Current
+http://minnesota.publicradio.org/tools/play/streams/local.pls
+#EXTINF:-1,MPR Radio Heartland
+http://minnesota.publicradio.org/tools/play/streams/radio_heartland.pls
+#EXTINF:-1,MPR Wonderground Windows Media
+http://wondergroundstream2.publicradio.org/wonderground
+#EXTINF:-1,Clasical MPR Choral
+http://choralstream1.publicradio.org/choral.m3u
+#EXTINF:-1,WEFUNK Radio MP3 64K
+http://www.wefunkradio.com/play/shoutcast.pls
+#EXTINF:-1,Sleepbot Environmental Broadcast 56K MP3
+http://sleepbot.com/ambience/cgi/listen.cgi/listen.pls
+#EXTINF:-1,Soma FM Groove Salad iTunes AAC 128K
+http://somafm.com/groovesalad130.pls
+#EXTINF:-1,Soma FM Drone Zone iTunes AAC 128K
+http://somafm.com/dronezone130.pls
+#EXTINF:-1,Soma FM Lush iTunes AAC 128K
+http://somafm.com/lush130.pls
+#EXTINF:-1,Soma FM Sonic Universe iTunes AAC 128K
+http://somafm.com/sonicuniverse.pls
