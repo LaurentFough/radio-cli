@@ -45,6 +45,7 @@ CirrusMPD="http://cirrus.turtil.net:9001"
 Dubstep="http://67.212.233.124:8014"
 Hardcore="http://67.212.233.124:8002"
 PinkFloyd="http://99.198.112.59:8000"
+SonicUniverse="http://somafm.com/sonicuniverse.pls"
 )
 
 # show_inf () {
