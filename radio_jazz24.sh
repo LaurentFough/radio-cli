@@ -51,6 +51,12 @@ while(true); do
   # radio_jazz24_player="$(echo $1 | awk '{print tolower($0)}')" # convert argument to lower-case; awk
 
   case $radio_jazz24_player in
+    iina)
+      radio_jazz24_player="$1|$(which iina)"
+      echo -ne "${cyan}\n[radio_jazz24] Chosen Player: $radio_jazz24_player ${norm}"
+      $(which iina) --no-video `echo ${jazz24_stations[$station]} | cut -d '=' -f2`
+      ;;
+    
     mpv)
       radio_jazz24_player="$1|$(which mpv)"
       echo -ne "${cyan}\n[radio_jazz24] Chosen Player: $radio_jazz24_player ${norm}"
