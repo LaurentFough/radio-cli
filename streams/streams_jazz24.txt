@@ -1,0 +1,14 @@
+alias 48k="mplayer -playlist https://live.wostreaming.net/playlist/ppm-jazz24aac48-ibc1.m3u"
+alias 64K="mplayer -playlist https://live.wostreaming.net/playlist/ppm-jazz24aac-ibc1.m3u"
+alias 256k="mplayer -playlist https://live.wostreaming.net/playlist/ppm-jazz24aac256-ibc1.m3u"
+alias 128k="mplayer -playlist https://live.wostreaming.net/playlist/ppm-jazz24mp3-ibc1.m3u"
+
+#EXTM3U
+#EXTINF:-1,48K AAC
+https://live.wostreaming.net/playlist/ppm-jazz24aac48-ibc1.m3u
+#EXTINF:-1,64K AAC
+https://live.wostreaming.net/playlist/ppm-jazz24aac-ibc1.m3u
+#EXTINF:-1,256k AAC
+https://live.wostreaming.net/playlist/ppm-jazz24aac256-ibc1.m3u
+#EXTINF:-1,128k MP3
+https://live.wostreaming.net/playlist/ppm-jazz24mp3-ibc1.m3u
