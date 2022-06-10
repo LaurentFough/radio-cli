@@ -56,7 +56,13 @@ while(true); do
       echo -ne "${cyan}\n[radio_jazz24] Chosen Player: $radio_jazz24_player ${norm}"
       $(which iina) --no-video `echo ${jazz24_stations[$station]} | cut -d '=' -f2`
       ;;
-    
+
+    vlc)
+      radio_jazz24_player="$1|$(which vlc)"
+      echo -ne "${cyan}\n[radio_jazz24] Chosen Player: $radio_jazz24_player ${norm}"
+      $(which vlc) --no-video `echo ${jazz24_stations[$station]} | cut -d '=' -f2`
+    ;;
+
     mpv)
       radio_jazz24_player="$1|$(which mpv)"
       echo -ne "${cyan}\n[radio_jazz24] Chosen Player: $radio_jazz24_player ${norm}"
