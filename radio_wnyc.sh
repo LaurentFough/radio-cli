@@ -26,7 +26,7 @@ echo '  ___           ___           ___                       ___               
 
 wnyc_stations=(
 "[WNYC] 93.9 FM"="http://www.wnyc.org/stream/wnyc-fm939/aac.pls"
-"[WNYC] 820 AM"Xtra="http://www.wnyc.org/stream/wnyc-am820/aac.pls"
+"[WNYC] 820 AM Xtra"="http://www.wnyc.org/stream/wnyc-am820/aac.pls"
 "[WNYC] WQXR 105.9 FM"="http://www.wnyc.org/stream/wqxr/aac.pls"
 "[WNYC] Q2 Music"="http://www.wnyc.org/stream/q2/aac.pls"
 "[WNYC] Operavore"="http://www.wqxr.org/stream/wqxr-special/aac.pls"
